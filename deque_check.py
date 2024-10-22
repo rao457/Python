@@ -1,0 +1,10 @@
+from collections import deque
+my_que = deque(maxlen=4)
+my_que.append(4)
+my_que.append(5)
+my_que.append(6)
+my_que.append(7)
+my_que.append(8)
+my_que.appendleft(2)
+my_que.popleft()
+print(my_que)

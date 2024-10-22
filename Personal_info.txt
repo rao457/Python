@@ -1,0 +1,8 @@
+Name : zohiab
+Age : 20
+Name : shoaib
+Age : 22
+Name : sonia 
+Age : 18
+Name : zubair 
+Age : 16

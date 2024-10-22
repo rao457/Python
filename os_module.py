@@ -1,0 +1,12 @@
+import os
+print(os.getcwd())
+print(os.path.join("Zohaib", "Shoaib", "Sonia"))
+# os.makedirs("C:/Walnut/Wafers/Biscuits")
+print(os.path.abspath("new"))
+print(os.path.isabs("new"))
+print(os.path.isabs("Users"))
+print(os.path.isabs("Soul Drawer"))
+print(os.path.relpath("Users", start="C:/"))
+print(os.path.abspath('.'))
+print(os.path.isabs('.'))
+print(os.path.isabs(os.path.abspath('.')))

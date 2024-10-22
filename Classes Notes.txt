@@ -1,0 +1,9 @@
+You can model almost anything using classes. Let’s start by writing a simple
+class, Dog, that represents a dog—not one dog in particular, but any dog.
+What do we know about most pet dogs? Well, they all have a name and age.
+We also know that most dogs sit and roll over. Those two pieces of information (name and age) and those two behaviors (sit and roll over) will go
+in our Dog class because they’re common to most dogs. This class will tell
+Python how to make an object representing a dog. After our class is written,
+we’ll use it to make individual instances, each of which represents one specific dog.
+Creating the Dog Class
+Each instance created from

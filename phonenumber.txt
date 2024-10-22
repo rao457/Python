@@ -1,0 +1,78 @@
+Object type            Example literals/creation
+Numbers               1234, 3.1415, 3+4j, Decimal, Fraction
+Strings           'spam', "guido's", b'a\x01c'
+Lists             [1, [2, 'three'], 4]
+Dictionaries          {'food': 'spam', 'taste': 'yum'}
+Tuples       (1, 'spam', 4, 'U')
+Files          myfile = open('eggs', 'r')
+Sets          set('abc'), {'a', 'b', 'c'}
+Other core types          Booleans, types, None
+Program unit types        Functions, modules, classes (Part IV, Part V, Part VI)
+Implementation-related types       Compiled code, stack tracebacks (Part IV, Part VII
+Normal Picture of Python:
+1. Programs are composed of modules.
+2. Modules contain statements.
+3. Statements contain expressions.
+4. Expressions create and process objects.
+list comprehension means basically what it says: “Give
+me row[1] for each row in matrix M, in a new list.”
+Use Of Dictionaries:
+ In other applications, dictionaries can also be used to replace searching
+operations—indexing a dictionary by key is often the fastest way to code a search in
+Python.
+Decorator:
+While using the decorator keep in mind that 
+def function name(arg Function):
+	def name of modified funciton():0318-0537384
+		print(message)
+	arg Function
+		print(message)
+	return modified function
+here actually the arg function is replaced by the function on which we are using this function as a decorator.
+Classes
+Serve as instance factories. Their attributes provide behavior—data and
+functions—that is inherited by all the instances generated from them (e.g., a func-
+tion to compute an employee’s salary from pay and hours).
+Instances
+Represent the concrete items in a program’s domain. Their attributes record data
+that varies per specific object (e.g., an employee’s Social Security number).
+In terms of search trees, an instance inherits attributes from its class, and a class inherits
+attributes from all classes above it in the tree.
+Indexing:
+Actually, the indexing gives the position of characters in the string or any other iterable objects.
+Slicing:
+In the slicing we actually extract a portion of string by giving its index separated by colon.
+OOP:
+in oop self keyword used in function arguments means that object for which this methos has been called.
+Wo object jis k liye ye method call kiya ja raha hai 
+Methods Syntax concept:
+Attribute fetches
+An expression of the form object.attribute means “fetch the value of attribute
+in object.”
+Call expressions
+An expression of the form function(arguments) means “invoke the code of
+function, passing zero or more comma-separated argument objects to it, and return
+function’s result value.”
+Single equal and double equal signs means:
+When there is a single equal sign in the code it simply means set the value of variable resting on the left side of equal sign what is the value on the right side of equal sign.
+And double equal sign asks a question whether both value on left and right side of double equal sign are equal or not.
+Multiple If statements are used instead of using if elif chains are considered when there is chance that multiple conditions can become true and you want to test them all
+Using if elif else chains are dependent on previous test to fail to execute but using multiple if statements make the programe independent whether previous condition passed or not next code will be executed
+Dictionaries about:
+"If we want to access a key in the dictionary which does not exist in the dictionary we are going to get an error. This error can stop our program to run further. To handle this error we use get() keyword which gives us the value of the key if it exists otherwise it prints something which you code while handling."
+When we simply 3310 want to have more than one value associated with a key in dictionary we can use a list for the value of that specific key.
+Parameters and Arguments:
+Parameters: "The pieces of information a function needs to perform its specific task is called parameter." These are defined while defining the function.
+Arguments: "The pieces of information that are assingned to parameters while calling the function are called arguments."
+Positional Arguments:
+"When we call a function python must match the arguments given in call of function with parameters provided in definition of function. The simples way to do this is matching based on the order they are provided. This type of matchin of arguments is called positional arguments."
+keyword Arguments:
+"These are key-value pairs that are passed to function while calling it. Order of parameters does not matter in these arguments but names of keys while assigining them a value must be same as passed in the parameters."
+Default value:
+"If we set a value for the parameters in the definition of function it is called the default value and we don't need pass the argument for defualt parameter in the function call."
+Note>>>>> if we pass default argument as first argument in definition of function and try to pass other parameters thinking that we'd assign them argument in function call, interpreter would raise an error of DEFAULT ARGUMENTS ARE FOLLOWED BY DEFAULT ARGUMENTS. therefore default arguments usually pass as last argument while defining a function.
+
+
+
+
+
